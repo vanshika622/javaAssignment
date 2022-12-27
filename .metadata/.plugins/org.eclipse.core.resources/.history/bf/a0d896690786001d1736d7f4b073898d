@@ -1,0 +1,32 @@
+package task3_ques5;
+
+import java.util.Scanner;
+
+public class ques5 {
+
+	public static void main(String[] args) {
+		String ask="yes";
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			if(ask=="yes") {
+		int a,b, sum=0;
+        
+        System.out.println("Enter value of a and b : ");
+        a = sc.nextInt();  
+       b = sc.nextInt(); 
+		sum= a+b;
+		 System.out.println(sum);
+		 
+		 
+			} 
+			else {
+				break;
+			}
+			System.out.println("want to peform action again: ");
+			 ask = sc.nextLine();
+
+	}
+		
+	}
+
+}
